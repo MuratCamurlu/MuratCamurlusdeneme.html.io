@@ -6,7 +6,7 @@
   text-decoration: none;
 }
 .navbar {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   width: 100%;
   height: 8vh;
@@ -40,6 +40,10 @@
   height: 50px;
   margin-top: 1rem;
   margin-left: 3rem;
+  transition: transform 2s;
+}
+.logo img:hover {
+  transform: rotateY(360deg);
 }
 .header .a2 {
   /* border: 1px solid red; */
@@ -57,7 +61,7 @@
   margin-left: 1rem;
 }
 .main {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 100%;
   height: 65vh;
   background-image: linear-gradient(
@@ -83,4 +87,46 @@
 .imge .fa-hand-point-down {
   color: white;
   margin-top: 5vh;
+}
+.main .site {
+  /* border: 1px solid red; */
+  margin-top: 5vh;
+  width: 70%;
+  height: 6vh;
+  display: flex;
+}
+.main .site li {
+  border: 1px solid white;
+  display: flex;
+  width: 50%;
+  margin-right: 50px;
+  padding-top: 1vh;
+  padding-left: 1vw;
+}
+.main .site li:hover {
+  background-color: gold;
+}
+.main .site li a {
+  color: white;
+}
+.footer {
+  text-align: center;
+  padding-top: 2vh;
+}
+.footer p {
+  margin-bottom: 2vh;
+}
+.footer .sonimge {
+  border: 1px solid orange;
+  width: 5vw;
+  height: 5vh;
+  border-radius: 10px;
+  padding-top: 1vh;
+  margin-left: 48vw;
+  background-color: bisque;
+}
+.footer .sonimge:hover {
+  border: 1px solid gold;
+
+  background-color: orange;
 }
